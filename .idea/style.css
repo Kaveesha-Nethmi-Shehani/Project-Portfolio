@@ -2,6 +2,20 @@ body{
     background: #030303;
 }
 
+.navibar{
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-family: DialogInput;
+    font-style: oblique;
+
+
+}
+
 div{
     width: 400px;
     height: 400px;
@@ -9,8 +23,6 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 div img{
