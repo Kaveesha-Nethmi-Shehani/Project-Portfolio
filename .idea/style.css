@@ -7,16 +7,9 @@ body{
     justify-content: flex-end;
     gap: 80px;
     padding: 20px;
-
 }
 
 a{
-    text-decoration: none;
-    color: white;
-    font-size: x-large;
-    font-family: DialogInput;
-    font-style: oblique;
-
 
 }
 
