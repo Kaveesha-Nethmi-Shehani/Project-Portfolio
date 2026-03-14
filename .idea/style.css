@@ -22,40 +22,40 @@ a:hover{
     color:#8F87F1;
 }
 
-div{
-    width: 400px;
-    height: 400px;
-    margin: 100px auto;
+
+
+.logo {
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+    margin: 50px 0;
 
-div img {
-    width: 200px;
+}
+.logo img{
+    width: 349px;
     height: auto;
-    animation: customColorshift 8s infinite linear;
+    animation:customColorshift 8s infinite linear ;
 }
 
 @keyframes customColorshift {
-    0%{
-        filter: drop-shadow(0 0 10px  #8F87F1) hue-rotate(0deg);
+    0% {
+        filter: drop-shadow(0 0 10px #8F87F1) hue-rotate(0deg);
     }
 
-    33%{
-        filter: drop-shadow(0 0 15px  #C68EFD) hue-rotate(40deg);
+    33% {
+        filter: drop-shadow(0 0 15px #C68EFD) hue-rotate(40deg);
     }
 
-    66%{
-        filter: drop-shadow(0 0 15px  #E9A5F1) hue-rotate(80deg);
+    66% {
+        filter: drop-shadow(0 0 15px #E9A5F1) hue-rotate(80deg);
     }
 
-    100%{
+    100% {
         filter: drop-shadow(0 0 10px #FED2E2) hue-rotate(120deg);;
     }
 
+}
 
-
+.home02{
 
 
 }
