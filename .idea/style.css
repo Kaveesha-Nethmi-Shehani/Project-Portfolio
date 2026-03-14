@@ -48,7 +48,10 @@ div img {
 
     66%{
         filter: drop-shadow(0 0 15px  #E9A5F1) hue-rotate(80deg);
+    }
 
+    100%{
+        filter: drop-shadow(0 0 10px #FED2E2) hue-rotate(120deg);;
     }
 
 
