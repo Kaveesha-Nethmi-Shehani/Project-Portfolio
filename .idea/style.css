@@ -22,8 +22,6 @@ a:hover{
     color:#8F87F1;
 }
 
-
-
 div{
     width: 400px;
     height: 400px;
@@ -31,9 +29,11 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-div img{
-    width: 349%;
+div img {
+    width: 200px;
     height: auto;
+    animation: customColorshift 8ms infinite linear;
 }
