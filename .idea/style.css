@@ -38,5 +38,9 @@ div img {
 }
 
 @keyframes customColorshift {
+    0%{
+        filter: drop-shadow(0 0 10px  #8F87F1) hue-rotate(0deg);
+    }
+
 
 }
