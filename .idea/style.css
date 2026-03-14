@@ -42,5 +42,12 @@ div img {
         filter: drop-shadow(0 0 10px  #8F87F1) hue-rotate(0deg);
     }
 
+    33%{
+        filter: drop-shadow(0 0 15px  #C68EFD) hue-rotate(40deg);
+    );
+    }
+
+
+
 
 }
