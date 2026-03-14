@@ -15,8 +15,14 @@ a{
     font-style:oblique;
     font-size: x-large;
     font-family: DialogInput;
-
+    transition-duration: 1000ms;
 }
+
+a:hover{
+    color: plum;
+}
+
+
 
 div{
     width: 400px;
