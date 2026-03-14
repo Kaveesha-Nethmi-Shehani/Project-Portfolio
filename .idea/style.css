@@ -6,6 +6,7 @@ body{
     display: flex;
     justify-content: flex-end;
     gap: 80px;
+    padding: 20px;
 
 }
 
