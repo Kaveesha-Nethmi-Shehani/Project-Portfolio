@@ -34,7 +34,7 @@ div{
 div img {
     width: 200px;
     height: auto;
-    animation: customColorshift 8ms infinite linear;
+    animation: customColorshift 8s infinite linear;
 }
 
 @keyframes customColorshift {
