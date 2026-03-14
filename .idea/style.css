@@ -4,6 +4,8 @@ body{
 
 .navibar{
     display: flex;
+    justify-content: flex-end;
+
 
 }
 
