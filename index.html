@@ -17,13 +17,14 @@
 
     <section class="navi-box">
         <nav class="navigation">
-            <a href="active">Home</a>
-            <a class="active">About</a>
-            <a class="active">Project</a>
-            <a class="active">Skills</a>
-            <a class="active">Gallery</a>
-            <a class="active">Contact</a>
-            <a class="active">Case</a>
+            <a href="home_html">Home</a>
+            <a href="#about">About</a>
+            <a href="#project-navigate">Project</a>
+            <a href="Skills_html">Skills</a>
+            <a href="Gallery_html">Gallery</a>
+            <a href="Case_html">Case</a>
+            <a href="Contact_html">Contact</a>
+
         </nav>
     </section>
 
@@ -69,9 +70,25 @@
 
 
     <section class="projects-section">
-        <h1 class="heading">My <span>Projects</span></h1>
+        <h1 class="heading">My <span id="project-navigate">Projects</span></h1>
 
         <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="../assets/PRF Project.png" alt="Portfolio">
+                </div>
+                <div class="project-info">
+                    <h3>Stock Management System</h3>
+                    <p>Developed a Recycle Management System specifically designed for a recycling company to streamline and manage their daily operations. This project focuses on efficiently handling Recycle Item Management, including tracking inventory, processing items, and maintaining records. Built using a Layered Architecture, the system ensures high scalability, clean code organization, and a professional management experience for the business.</p>
+                    <div class="tech-stack">
+                        <span>Java</span>
+                        <span>MySQL</span>
+
+                    </div>
+                    <a href="https://github.com/Kaveesha-Nethmi-Shehani/PRF-Course-Work " class="view-btn">View Project</a>
+                </div>
+            </div>
+
             <div class="project-card">
                 <div class="project-img">
                     <img src="../assets/Connect 4 Game.jpg" alt="Recycle App">
@@ -118,10 +135,11 @@
                     <a href="https://github.com/Kaveesha-Nethmi-Shehani/layerd_recycle" class="view-btn">View Project</a>
                 </div>
             </div>
-
-
         </div>
     </section>
+
+
+
 
 
 
