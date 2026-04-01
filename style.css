@@ -747,20 +747,23 @@ section {
 /*footer*/
 
 .footer-section{
-    background:#53532d;
-    padding: 40px 0;
+    background: #888836;
+    padding: 30px 0;
     color: #fdfcfc;
+    height: 150px;
 }
 .footer-container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 0;
 }
 
 .footer-logo img{
+    height: 85px;
+    width: auto;
 
 }
 
