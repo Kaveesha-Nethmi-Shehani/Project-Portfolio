@@ -744,7 +744,16 @@ section {
     }
 }
 
+/*footer*/
 
+.footer-section{
+    background: #53532d;
+    width: auto;
+    height: 80px;
+
+
+
+}
 
 
 
