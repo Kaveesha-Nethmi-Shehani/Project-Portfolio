@@ -772,6 +772,9 @@ section {
     flex-wrap:wrap;
     justify-content: center;
 }
+.footer-nav a{
+    color: #fbfbfb;
+}
 
 
 
