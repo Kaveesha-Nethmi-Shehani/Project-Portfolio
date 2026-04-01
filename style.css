@@ -764,7 +764,10 @@ section {
 .footer-logo img{
     height: 85px;
     width: auto;
+}
 
+.footer-nav{
+    display: flex;
 }
 
 
