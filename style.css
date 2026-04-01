@@ -302,7 +302,7 @@ h2{
     background: #000;
     padding: 80px 10%;
     text-align: center;
-    min-height: 100vh;
+    min-height: 200vh;
 }
 
 .heading {
@@ -423,7 +423,7 @@ h2{
     color: #e6ff02;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
