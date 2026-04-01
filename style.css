@@ -770,6 +770,7 @@ section {
     display: flex;
     gap: 50px;
     flex-wrap:wrap;
+    justify-content: center;
 }
 
 
