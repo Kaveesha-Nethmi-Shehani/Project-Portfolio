@@ -779,6 +779,9 @@ section {
     font-style: italic;
     transition: 0.3s;
 }
+.footer-nav a:hover{
+    color: #e6ff00;
+}
 
 
 
