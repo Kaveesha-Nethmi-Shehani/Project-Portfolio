@@ -469,7 +469,7 @@ section {
     transition: 0.5s ease-in-out;
     cursor: pointer;
     img {
-        width: 100%;
+        width: 85%;
         height: 100%;
         object-fit: cover;
         background-color: #ffffff;
