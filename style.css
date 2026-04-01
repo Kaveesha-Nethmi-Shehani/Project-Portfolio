@@ -750,9 +750,11 @@ section {
     background: #53532d;
     width: auto;
     height: 80px;
-
-
-
+}
+picture{
+    position: relative;
+    width: auto;
+    height: auto;
 }
 
 
