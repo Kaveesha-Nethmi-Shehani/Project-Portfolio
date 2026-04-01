@@ -781,6 +781,7 @@ section {
 }
 .footer-nav a:hover{
     color: #e6ff00;
+    text-decoration: underline;
 }
 
 
