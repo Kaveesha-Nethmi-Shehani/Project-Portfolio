@@ -457,7 +457,7 @@ section {
 .carousel-track .carousel-item {
     position: absolute;
     width: 30rem;
-    height: 70rem;
+    height: 60rem;
     left: 100%;
     display: flex;
     justify-content: center;
