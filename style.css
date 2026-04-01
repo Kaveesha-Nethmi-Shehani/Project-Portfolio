@@ -746,55 +746,10 @@ section {
 
 /*footer*/
 
-/*.footer-section{*/
-/*    background: #53532d;*/
-/*    width: auto;*/
-/*    height: 210px;*/
-/*    !*position: fixed;*!*/
-/*}*/
-/*picture{*/
-/*    width: 90%;*/
-/*    height: 90%;*/
-/*}*/
+.footer-section{
 
-.footer-section {
-    background: #53532d;
-    padding: 40px 0; /* height එක fixed කරනවාට වඩා padding දීම හොඳයි */
-    color: white;
 }
 
-.footer-container {
-    width: 90%;
-    margin: 0 auto; /* මැදට ගැනීමට */
-    display: flex;
-    flex-direction: column; /* එක යට එක සිටීමට */
-    align-items: center;
-    gap: 20px; /* Logo එක සහ Links අතර පරතරය */
-}
-
-.footer-logo img {
-    height: 50px; /* Logo එකේ ප්‍රමාණය */
-    width: auto;
-}
-
-.footer-nav {
-    display: flex;
-    gap: 20px; /* Links අතර පරතරය */
-    flex-wrap: wrap; /* පොඩි screen වලදී කැඩිලා යන්න */
-    justify-content: center;
-}
-
-.footer-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    transition: 0.3s;
-}
-
-.footer-nav a:hover {
-    color: #f1f1f1; /* Mouse එක උඩට ගියපුවාම පාට වෙනස් වෙන්න */
-    text-decoration: underline;
-}
 
 
 
