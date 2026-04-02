@@ -457,10 +457,10 @@ section {
 .carousel-track .carousel-item {
     position: absolute;
     width: 30rem;
-    height: 60rem;
+    height: 24rem;
     left: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     perspective: 1000px;
     transform-style: preserve-3d;
     animation: scroll-left var(--time) linear infinite;
@@ -514,7 +514,7 @@ section {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 1.6rem;
-    color: black;
+    color: #020202;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -779,7 +779,7 @@ section {
 /*footer*/
 
 .footer-section{
-    background: #888836;
+    /*background: #e4e40c;*/
     padding: 30px 0;
     color: #fdfcfc;
     height: 150px;
@@ -796,6 +796,7 @@ section {
 .footer-logo img{
     height: 85px;
     width: auto;
+
 }
 
 .footer-nav{
