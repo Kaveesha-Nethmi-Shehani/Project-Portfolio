@@ -32,7 +32,7 @@ body {
         display: flex;
         justify-content: right;
         margin-top: 10px;
-        gap: 20 0px;
+        gap: 200px;
         padding: 10px;
         position: sticky;
         z-index: 10;
@@ -830,6 +830,17 @@ section {
     gap: 40px;
     padding: 50px;
     width: 100%;
+}
+
+.activity-card{
+    background: rgba(9,9,9,0.05);
+    border: 1px solid rgba(255, 255, 255,0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    transition: 0.6s ease;
+    box-shadow: rgb(93, 101, 7) 0 30px 60px -12px inset, rgb(227, 251, 3) 0 18px 36px -18px inset;
+
 }
 
 
