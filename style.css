@@ -823,7 +823,11 @@ section {
 
 
 /*Activity*/
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
 
+}
 
 
 
