@@ -913,6 +913,16 @@ section {
     background: black;
 }
 
+.card-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 450px;
+    width: 100%;
+}
+
+
 
 
 
