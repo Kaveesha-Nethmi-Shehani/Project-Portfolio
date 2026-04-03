@@ -850,8 +850,11 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
 
-
+.activity-card:hover{
+    transform: scale(1.05);
+    background: rgba(255,255,255,0.1);
 }
 
 
