@@ -922,6 +922,30 @@ section {
     width: 100%;
 }
 
+.card {
+    background: rgba(9, 9, 9, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    transition: 0.6s ease;
+    box-shadow: rgb(151, 156, 103) 0 30px 60px -12px inset, rgb(51, 53, 30) 0 18px 36px -18px inset;
+    /*box-shadow: rgb(223, 222, 161) 0px -50px 36px -28px inset;*/
+
+    width: 550px;
+    height: 80px;
+    margin: 10px;
+    padding: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+
 
 
 
