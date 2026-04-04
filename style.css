@@ -40,10 +40,10 @@ body {
 
     a {
         font-size: 24px;
-        font-family: "fangsong";
+        font-family: serif;
         text-decoration: none;
         font-weight: 700;
-        font-style: italic;
+       font-style: revert;
         color:#f39c12;
         transition: color 0.5s ease;
     }
@@ -266,7 +266,7 @@ body {
 p{
     font-size: 20px;
     font-weight: 100;
-    font-style: italic;
+    font-style: revert;
     color: white;
     max-width: 700px;
     margin: 0;
@@ -854,7 +854,7 @@ section {
 
 .activity-card:hover{
     transform: scale(1.05);
-    background: rgba(255,255,255,0.1);
+    background: rgb(22, 27, 15);
 }
 .click-btn{
     border-radius: 80px;
@@ -876,7 +876,6 @@ section {
 }
 
 .click-page {
-
     border-radius: 80px;
     color: #dda243;
     font-size: 20px;
@@ -892,13 +891,25 @@ section {
     width: 10%;
 }
 
+.click-page:hover{
+    transform: scale(1.09);
+    box-shadow: 0 5px 32px 0 rgb(43, 50, 30);
+
+
+
+
+}
+
 .view-page{
     display: flex;
     justify-content: center;
     width: 100%;
     margin-top:3%;
     margin-bottom: 50px;
+    transition: all 0.4s ease ;
 }
+
+
 
 /*Page*/
 .card-container{
@@ -959,15 +970,18 @@ section {
     white-space: nowrap;
     z-index: 3;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 32px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 5px 32px 0 rgb(62, 62, 58);
     padding: 10px 30px;
     text-decoration: none;
+
+
 
 
 }
 .case-btn {
     text-decoration: none;
 }
+
 
 
 
