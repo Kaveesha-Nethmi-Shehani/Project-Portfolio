@@ -1,3 +1,10 @@
+/*body, html {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
 body {
     background-color: #000000;
     opacity: 0.9;
@@ -425,10 +432,6 @@ h2{
     background: #ececec;
 }
 
-
-
-
-
 /*skills*/
 
 .skills-section{
@@ -436,7 +439,6 @@ h2{
     width: 100%;
     height: 100vh;
     display: flex;
-    /*flex-direction: column;*/
     align-items: center;
     padding-top: 100px;
 }
@@ -448,7 +450,6 @@ h2{
     color: white;
     font-size: 15rem;
     text-align: center;
-    /*margin-top: 120px;*/
     width: 100%;
 
 }
@@ -782,7 +783,7 @@ section {
 /*memories*/
 .memories-section {
     width: 100%;
-    min-height: 150px;
+    min-height: auto;
     background: #020202;
     display: flex;
     flex-direction: column;
@@ -801,35 +802,22 @@ section {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Activity*/
+.activity-section{
+    background: #000;
+    text-align: center;
+    min-height: auto;
+
+}
 .activity-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-    padding: 50px;
+    padding: 20px;
     width: 100%;
+
+
 }
 
 .activity-card{
@@ -973,14 +961,85 @@ section {
     box-shadow: 0 5px 32px 0 rgb(62, 62, 58);
     padding: 10px 30px;
     text-decoration: none;
-
-
-
-
 }
-.case-btn {
+
+
+
+
+
+ /* Contact*/
+.contact-section {
+    background: #050505;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.ph-contact h2 {
+    color: #dffa00;
+    font-size: 10.5rem;
+    font-weight: bold;
+    text-align: left;
+    max-width: 500px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.contact-button{
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 0;
+    background: rgb(16, 16, 16);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    white-space: nowrap;
+    z-index: 3;
+    transition: all 0.3s ease;
+    padding: 10px 30px;
     text-decoration: none;
+    margin-left: 200px;
+    color: #e6ff02;
+    box-shadow: rgb(89, 89, 30) 0px 2px 4px 0px inset;
 }
+.contact-button:hover{
+    transform: scale(1.05);
+}
+
+
+
+.heading-contact{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: yellow;
+    font-size: 2rem;
+    margin: 0;
+
+}
+.heading-contact span{
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
