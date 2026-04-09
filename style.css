@@ -1013,7 +1013,7 @@ section {
     background: linear-gradient(to right, #fbf700, #aafd00);
     -webkit-background-clip: text;
     background-clip: text;
-    text-shadow: 0 0 20px rgba(202, 162, 1, 0.3);
+    text-shadow: 0 0 20px rgba(192, 255, 1, 0.3);
     font-size: clamp(3rem, 8vw, 6.5rem);
     font-weight: bold;
     max-width: 900px;
