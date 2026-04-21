@@ -37,45 +37,39 @@
             <h1 class="jobs1">Web Developer</h1>
             <h1 class="jobs2">Front-End Developer</h1>
             <h1 class="jobs3">Back-End Developer</h1>
+        </div>
 
         <div class="text-content">
            <h1 class="main-name">Hello! I'm Nethmi</h1>
-
             <h2 class="her-title"></h2>
-            <span class="details"> Undergraduate Fullstack Developer</span>
-
-            </div>
+            <span class="details">
+                <span>I'M </span>
+                <span id="typing-effect"></span></span>
         </div>
+
+
     </section>
 
 
 
-    <main>
+<!--About-->
         <section id="about-section" class="sticky-page">
             <div class="about-container">
                 <div class="about-text">
-                    <h2>About Me</h2>
+                    <h2 id="about-title">About Me</h2>
 
 
                     <div class="about-img">
                         <img src="../assets/img.png" alt="about" class="img">
                         <div id="about-wrapper">
-                            <p>"I am Kaweesha Nethmi, a Full-stack Development
-                                <br>
+                            <p id="about-p">
+                                "I am Kaweesha Nethmi, a Full-stack Development
                                 enthusiast and undergraduate at IJSE.
-                                <br>
                                 I believe that great code is the foundation of a happy
-                                <br>
                                 customer. Whether it's designing an intuitive UI or optimizing
-                                <br>
-                                a powerful backend, I put my heart into
-                                <br>
-                                every line of code to ensure a delightful user experience.
-                                <br>
+                                a powerful backend, I put my heart into every line of code to ensure a delightful user experience.
                                 I am passionate about using my evolving expertise to
-                                <br>
                                 create digital products that solve
-                                <br>
                                 real-world problems and keep clients coming back for more.</p>
                             <a href="../assets/CV .jpg" class="download-btn">DOWNLOAD MY CV</a>
                         </div>
@@ -83,7 +77,7 @@
                     </div>
             </div>
         </section>
-    </main>
+
 
 <!-- Project-->
     <section class="projects-section sticky-page">
@@ -631,7 +625,24 @@
 
 
 
+
+
+
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script src="script.js"></script>
+
+
+<script>
+    var typed = new Typed('#typing-effect', {
+        strings: ['Web Developer', 'Front-End Developer', 'Back-End Developer'],
+        typeSpeed: 50,
+        backSpeed: 40,
+        backDelay: 1500,
+        loop: true
+    });
+</script>
 
 
 </body>
