@@ -27,57 +27,40 @@ html, body {
     justify-content: center;
     overflow: visible;
     position: sticky;
-
-
 }
 
-
-
-    .home-section {
-        z-index: 1;
-        background: #050505;
-    }
-
-
-
-    .about-section {
-    z-index: 2;
-    background: #020202;
-
+.projects-section {
+    z-index: 3;
+    background: #080808;
 }
 
-    .projects-section {
-        z-index: 3;
-        background: #080808;
-    }
+.skills-section {
+    z-index: 4;
+    background: #090909;
+}
 
-    .skills-section {
-        z-index: 4;
-        background: #090909;
-    }
+.memories-section {
+    z-index: 5;
+    background: #050505;
+}
 
-    .memories-section {
-        z-index: 5;
-        background: #050505;
-    }
+.activity-section {
+    z-index: 6;
+    background: #0e0e0e;
+}
 
-    .activity-section {
-        z-index: 6;
-        background: #0e0e0e;
-    }
+.contact-section {
+    z-index: 7;
+    background: #111111;
+}
 
-    .contact-section {
-        z-index: 7;
-        background: #111111;
-    }
-
-    .footer-section {
+.footer-section {
     z-index: 999;
     background: #0e0e0e;
 }
 
 
-    body {
+body {
         background-color: #000000;
         opacity: 0.9;
         background-image: radial-gradient(#e6ff00 0.5px, transparent 0.5px), radial-gradient(#676928 0.5px, #000000 0.5px);
@@ -148,17 +131,19 @@ html, body {
         overflow: hidden;
     }
 
-    .hero-section img {
-        width: 350px;
-        height: auto;
-        z-index: 2;
-        filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.1));
-        margin-left: 0;
 
-        position: fixed;
-    }
+.home-section img {
+    width: 320px;
+    height: auto;
+    position: relative;
+}
 
-    .jobs1, .jobs2, .jobs3 {
+.home-section img:hover {
+    transform: scale(1.05);
+}
+
+
+.jobs1, .jobs2, .jobs3 {
         position: absolute;
         font-size: 18px;
         font-weight: 500;
@@ -177,20 +162,20 @@ html, body {
 
     .jobs1 {
         top: 25%;
-        left: 15%;
+        left: 2%;
         border-color: #e6ff02;
         animation: floating 3s ease-in-out infinite;
     }
 
     .jobs2 {
         top: 50%;
-        left: 35%;
+        left: 32%;
         border-color: #e6ff02;
         animation: floating 3.5s ease-in-out infinite;
     }
 
     .jobs3 {
-        bottom: 20%;
+        bottom: 10%;
         left: 10%;
         border-color: #e6ff02;
         animation: floating 4s ease-in-out infinite;
@@ -279,7 +264,7 @@ html, body {
 }
 
 /*about*/
-    #about-section {
+    .about-section {
         background: #000000;
         padding: 0 10%;
         /*min-height: 50vh;*/
@@ -302,6 +287,8 @@ html, body {
         flex-direction: column;
         flex: 1;
         min-width: 0;
+
+
 
     }
 
@@ -393,6 +380,31 @@ html, body {
         transform: translateY(-3px);
         border-color: #faf603;
     }
+
+@media (max-width: 768px) {
+
+    .about-container {
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        align-items: center;
+    }
+
+    #about-title {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .img {
+        width: 250px;
+    }
+
+    #about-p {
+        font-size: 16px;
+        text-align: center;
+        padding-left: 0;
+    }
+}
 
     /*Project*/
 
@@ -519,7 +531,16 @@ html, body {
         background: #fff;
         transform: scale(1.05);
     }
+@media (max-width: 768px) {
 
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+}
     /*skills*/
 
     .skills-section {
@@ -1156,6 +1177,23 @@ html, body {
         color: white;
         margin-left: 20px;
     }
+
+    @media (max-width: 768px) {
+
+    .main-content-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p {
+        font-size: 22px;
+        white-space: normal;
+    }
+
+    .highlight {
+        font-size: 50px;
+    }
+}
 
     /*Contact-page*/
 
